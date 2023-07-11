@@ -1,4 +1,8 @@
 .navigation {
+  position: sticky;
+  background: #fff;
+  top: 0;
+  z-index: 3;
   height: 70px;
   width: 100%;
   display: flex;
@@ -8,7 +12,9 @@
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-links-container {
